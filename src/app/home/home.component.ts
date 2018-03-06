@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  title = 'DuckJitsu';
-  heroImg = 'assets/img/yotd.jpg';
-  heroLink = 'http://www.happenstancecoffee.com/duck/';
+  title = '#CoffeeToo';
+  heroImg = 'assets/img/coffeetoologo.jpg';
+  heroLink = '#';
 
   constructor() { }
 
