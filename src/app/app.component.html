@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <div style="text-align:center">
+    <h1>
+      {{ title }}!
+    </h1>
+
+  </div>
+  <div class="row">
+    <div class="col">
+      <img [src] = 'heroImg' class='img-fluid'>
+    </div>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDjy46Pc69VBngtRX2x5r3xPXmac-orTJc",
+    authDomain: "duckjitsu-9f9d5.firebaseapp.com",
+    databaseURL: "https://duckjitsu-9f9d5.firebaseio.com",
+    projectId: "duckjitsu-9f9d5",
+    storageBucket: "duckjitsu-9f9d5.appspot.com",
+    messagingSenderId: "1012523201762"
+  };
+  firebase.initializeApp(config);
+</script>
