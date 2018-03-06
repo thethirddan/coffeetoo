@@ -1,0 +1,13 @@
+<br><br>
+
+<div class="row">
+  <div class="col bold">Day</div>
+  <div class="col bold">Time</div>
+  <div class="col bold">Location</div>
+</div>
+
+<div class="row" *ngFor="let item of schedule">
+  <div class="col">{{item.day}}</div>
+  <div class="col">{{item.time}}</div>
+  <div class="col">{{item.location}}</div>
+</div>

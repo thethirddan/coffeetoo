@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavComponent } from './nav/nav.component';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'DuckJitsu';
-  heroImg = 'assets/img/yotd.jpg';
+
 }
